@@ -14,6 +14,7 @@
 		D64C5834254AE1EC0008E832 /* switfProgram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D64C5832254AE1EC0008E832 /* switfProgram.xcdatamodeld */; };
 		D64C5836254AE1EE0008E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64C5835254AE1EE0008E832 /* Assets.xcassets */; };
 		D64C5839254AE1EE0008E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64C5837254AE1EE0008E832 /* LaunchScreen.storyboard */; };
+		D65049B6254AE5BE00AD173D /* myArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65049B5254AE5BE00AD173D /* myArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D64C5835254AE1EE0008E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64C5838254AE1EE0008E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64C583A254AE1EE0008E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65049B5254AE5BE00AD173D /* myArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D64C5829254AE1EC0008E832 /* AppDelegate.swift */,
 				D64C582B254AE1EC0008E832 /* SceneDelegate.swift */,
 				D64C582D254AE1EC0008E832 /* ViewController.swift */,
+				D65049B5254AE5BE00AD173D /* myArray.swift */,
 				D64C582F254AE1EC0008E832 /* Main.storyboard */,
 				D64C5835254AE1EE0008E832 /* Assets.xcassets */,
 				D64C5837254AE1EE0008E832 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65049B6254AE5BE00AD173D /* myArray.swift in Sources */,
 				D64C582E254AE1EC0008E832 /* ViewController.swift in Sources */,
 				D64C582A254AE1EC0008E832 /* AppDelegate.swift in Sources */,
 				D64C5834254AE1EC0008E832 /* switfProgram.xcdatamodeld in Sources */,
@@ -220,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
