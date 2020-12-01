@@ -14,9 +14,6 @@
 		D64C5834254AE1EC0008E832 /* switfProgram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D64C5832254AE1EC0008E832 /* switfProgram.xcdatamodeld */; };
 		D64C5836254AE1EE0008E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64C5835254AE1EE0008E832 /* Assets.xcassets */; };
 		D64C5839254AE1EE0008E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64C5837254AE1EE0008E832 /* LaunchScreen.storyboard */; };
-		D667ACB2254FA45400B747B9 /* DKArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667ACB1254FA45400B747B9 /* DKArray.swift */; };
-		D667AD0325502A1B00B747B9 /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667AD0225502A1B00B747B9 /* SinglyLinkedList.swift */; };
-		D667AD062550301D00B747B9 /* MyArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667AD052550301D00B747B9 /* MyArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +26,6 @@
 		D64C5835254AE1EE0008E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64C5838254AE1EE0008E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64C583A254AE1EE0008E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D667ACB1254FA45400B747B9 /* DKArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKArray.swift; sourceTree = "<group>"; };
-		D667AD0225502A1B00B747B9 /* SinglyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
-		D667AD052550301D00B747B9 /* MyArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +58,9 @@
 		D64C5828254AE1EC0008E832 /* switfProgram */ = {
 			isa = PBXGroup;
 			children = (
-				D667AD042550300E00B747B9 /* 05_array */,
-				D667ACFF255026AD00B747B9 /* 06_linkedlist */,
 				D64C5829254AE1EC0008E832 /* AppDelegate.swift */,
 				D64C582B254AE1EC0008E832 /* SceneDelegate.swift */,
 				D64C582D254AE1EC0008E832 /* ViewController.swift */,
-				D667ACB1254FA45400B747B9 /* DKArray.swift */,
 				D64C582F254AE1EC0008E832 /* Main.storyboard */,
 				D64C5835254AE1EE0008E832 /* Assets.xcassets */,
 				D64C5837254AE1EE0008E832 /* LaunchScreen.storyboard */,
@@ -77,22 +68,6 @@
 				D64C5832254AE1EC0008E832 /* switfProgram.xcdatamodeld */,
 			);
 			path = switfProgram;
-			sourceTree = "<group>";
-		};
-		D667ACFF255026AD00B747B9 /* 06_linkedlist */ = {
-			isa = PBXGroup;
-			children = (
-				D667AD0225502A1B00B747B9 /* SinglyLinkedList.swift */,
-			);
-			path = 06_linkedlist;
-			sourceTree = "<group>";
-		};
-		D667AD042550300E00B747B9 /* 05_array */ = {
-			isa = PBXGroup;
-			children = (
-				D667AD052550301D00B747B9 /* MyArray.swift */,
-			);
-			path = 05_array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +144,6 @@
 				D64C582E254AE1EC0008E832 /* ViewController.swift in Sources */,
 				D64C582A254AE1EC0008E832 /* AppDelegate.swift in Sources */,
 				D64C5834254AE1EC0008E832 /* switfProgram.xcdatamodeld in Sources */,
-				D667AD0325502A1B00B747B9 /* SinglyLinkedList.swift in Sources */,
-				D667AD062550301D00B747B9 /* MyArray.swift in Sources */,
-				D667ACB2254FA45400B747B9 /* DKArray.swift in Sources */,
 				D64C582C254AE1EC0008E832 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
